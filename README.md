@@ -2,6 +2,6 @@
 
 ## Índice
 
-1. *Procesos*
-2. *Memoria, espacio y rendimiento del disco*
+1. [Procesos](puntos/procesos.md)
+2. [Memoria, espacio y rendimiento del disco](puntos/memoria.md)
 3. *Trafico de la red*
