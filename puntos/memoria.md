@@ -33,6 +33,17 @@
 | `du -hs /home` | Muestra el tamaño total de `/home` en un formato legible. |
 | `du -hs /home/*` | Muestra el tamaño de cada elemento dentro de `/home`. |
 
+## Consultar el rendimiento de dispositivos con `iostat`
+
+`iostat` se utiliza para detectar problemas de rendimiento en dispositivos de almacenamiento. La opción `-x` permite consultar un dispositivo concreto en detalle.
+
+| Comando | Descripción |
+| --- | --- |
+| `iostat` | Muestra estadísticas de CPU y dispositivos de almacenamiento. |
+| `iostat -x` | Muestra información detallada de cada dispositivo. |
+
+![Estadísticas de rendimiento de almacenamiento con iostat](../img/captura-iostat.png)
+
 ## Resumen de comandos
 
 ```bash
@@ -44,4 +55,6 @@ df -hT
 df -hT /
 du -hs /home
 du -hs /home/*
+iostat
+iostat -x
 ```
